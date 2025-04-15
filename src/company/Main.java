@@ -11,16 +11,16 @@ public class Main {
     public static void main(String[] args) {
         Employee[] dsnhanvien = new Employee[10];
 
-        dsnhanvien[0] = new Fulltime(1,"Nguyễn A",24,"0966325998","NguyenA@gmail.com",1500000,9000000,500000);
-        dsnhanvien[1] = new Fulltime(2,"Nguyễn B",28,"0369858797","NguyenB@gmail.com",2000000,10000000,1000000);
-        dsnhanvien[2] = new Fulltime(3,"Nguyễn C",29,"0565444323","NguyenC@gmail.com",1000000,9000000,500000);
-        dsnhanvien[3] = new Fulltime(4,"Nguyễn D",29,"0565444555","NguyenD@gmail.com",1700000,11000000,200000); // Sửa Email nếu cần
-        dsnhanvien[4] = new Fulltime(5,"Nguyễn E",29,"0999999999","NguyenE@gmail.com",5000000,22000000,0); // Sửa tên/email nếu cần
-        dsnhanvien[5]= new Parttime(6,"Trần F",38,"0785968888","tranF8888@gmail.com",80.5); // Sửa tên/email nếu cần
-        dsnhanvien[6]= new Parttime(7,"Trần G",38,"0785969999","tranG9999@gmail.com",100); // Sửa tên/email nếu cần
-        dsnhanvien[7]= new Parttime(11,"Trần H",38,"0785961111","tranH1111@gmail.com",98.5); // Sửa tên/email nếu cần
-        dsnhanvien[8]= new Parttime(12,"Trần I",38,"0785962222","tranI2222@gmail.com",60); // Sửa tên/email nếu cần
-        dsnhanvien[9]= new Parttime(13,"Trần K",38,"0785963333","tranK3333@gmail.com",70); // Sửa tên/email nếu cần
+        dsnhanvien[0] = new Fulltime(1, "Nguyễn A", 24, "0966325998", "NguyenA@gmail.com", 1500000, 9000000, 500000);
+        dsnhanvien[1] = new Fulltime(2, "Nguyễn B", 28, "0369858797", "NguyenB@gmail.com", 2000000, 10000000, 1000000);
+        dsnhanvien[2] = new Fulltime(3, "Nguyễn C", 29, "0565444323", "NguyenC@gmail.com", 1000000, 9000000, 500000);
+        dsnhanvien[3] = new Fulltime(4, "Nguyễn D", 29, "0565444555", "NguyenD@gmail.com", 1700000, 11000000, 200000); // Sửa Email nếu cần
+        dsnhanvien[4] = new Fulltime(5, "Nguyễn E", 29, "0999999999", "NguyenE@gmail.com", 5000000, 22000000, 0); // Sửa tên/email nếu cần
+        dsnhanvien[5] = new Parttime(6, "Trần F", 38, "0785968888", "tranF8888@gmail.com", 80.5); // Sửa tên/email nếu cần
+        dsnhanvien[6] = new Parttime(7, "Trần G", 38, "0785969999", "tranG9999@gmail.com", 100); // Sửa tên/email nếu cần
+        dsnhanvien[7] = new Parttime(11, "Trần H", 38, "0785961111", "tranH1111@gmail.com", 98.5); // Sửa tên/email nếu cần
+        dsnhanvien[8] = new Parttime(12, "Trần I", 38, "0785962222", "tranI2222@gmail.com", 60); // Sửa tên/email nếu cần
+        dsnhanvien[9] = new Parttime(13, "Trần K", 38, "0785963333", "tranK3333@gmail.com", 70); // Sửa tên/email nếu cần
 
 
         Scanner sc = new Scanner(System.in);
