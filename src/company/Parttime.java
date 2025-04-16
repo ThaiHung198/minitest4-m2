@@ -22,7 +22,7 @@ public class Parttime extends Employee {
     }
 
     @Override
-    public double tinhluongthuclinh() {
+    public double payroll() {
         return this.WorkingHours * HourlyWage;
     }
 
@@ -31,7 +31,7 @@ public class Parttime extends Employee {
         return super.toString() +
                 "NhanvienParttime{" +
                 "gioLamViec=" + WorkingHours +
-                ", luongThucLinh=" + tinhluongthuclinh() +
+                ", luongThucLinh=" + payroll() +
                 ", id=" + id +
                 ", name='" + name + '\'' +
                 ", age=" + age +

@@ -6,6 +6,8 @@ public abstract class Employee {
     protected int age;
     protected String phoneNumber;
     protected String email;
+    public Employee() {
+    }
 
     public Employee(int id, String name, int age, String phoneNumber, String email) {
         this.id = id;
@@ -35,7 +37,7 @@ public abstract class Employee {
         return email;
     }
 
-    public abstract double tinhluongthuclinh();
+    public abstract double payroll();
 
 
     @Override

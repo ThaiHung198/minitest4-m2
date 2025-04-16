@@ -50,11 +50,11 @@ public class Fulltime extends Employee {
                 ", Lương cứng: " + basesalary +
                 ", Phạt: " + fined +
                 ", Thưởng: " + bonus +
-                ", Lương thực lĩnh: " + tinhluongthuclinh();
+                ", Lương thực lĩnh: " + payroll();
     }
 
     @Override
-    public double tinhluongthuclinh() {
+    public double payroll() {
         return this.basesalary + (this.bonus - this.fined);
     }
 }
